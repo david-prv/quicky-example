@@ -1,0 +1,7 @@
+<?php
+require_once __DIR__ . "/vendor/autoload.php";
+
+use Quicky\Console\Console;
+
+$console = Console::kernel($argc, $argv);
+$console->run();
